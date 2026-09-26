@@ -1,0 +1,15 @@
+name = "temp-mail"
+main = "src/worker.ts"
+compatibility_date = "2026-09-26"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+DOMAINS = ["qggmail.com"]
+DEFAULT_DOMAINS = ["qggmail.com"]
+ENABLE_USER_CREATE_EMAIL = true
+ENABLE_USER_DELETE_EMAIL = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "temp-mail"
+database_id = "8571b284-9c79-4202-b1d7-aedb59d7c6e1"
