@@ -8,8 +8,13 @@ DOMAINS = ["qggmail.com"]
 DEFAULT_DOMAINS = ["qggmail.com"]
 ENABLE_USER_CREATE_EMAIL = true
 ENABLE_USER_DELETE_EMAIL = true
+ENABLE_WEBHOOK = true
 
 [[d1_databases]]
 binding = "DB"
 database_name = "temp-mail"
 database_id = "8571b284-9c79-4202-b1d7-aedb59d7c6e1"
+
+[[kv_namespaces]]
+binding = "KV"
+id = "c2380ede07a047248ab9b5d9a0385f1a"
